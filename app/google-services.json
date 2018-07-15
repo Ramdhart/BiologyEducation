@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "378955163410",
+    "firebase_url": "https://project-uas-e82da.firebaseio.com",
+    "project_id": "project-uas-e82da",
+    "storage_bucket": "project-uas-e82da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378955163410:android:21060014ba6a0daa",
+        "android_client_info": {
+          "package_name": "com.jxj.biologyeducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378955163410-mej9vpej8efgtipp6n2t31otala9j4e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsOQ-PrYQbi0mxc5V1HMIVZxlUPpuPt9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

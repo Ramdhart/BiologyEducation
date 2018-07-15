@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/jxj"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/warnaPutih"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layer1"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="materi"
+            android:id="@+id/artikel"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/logo1"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/text"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo1"
+                android:text="ARTIKEL WEB"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                android:textColor="#000"/>
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="videoMateri"
+            android:id="@+id/video"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:id="@+id/logo2"
+                android:layout_centerInParent="false"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/youtube"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo2"
+                android:text="VIDEO MATERI"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                android:textColor="#000"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:id="@+id/jangkar2"/>-->
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:src="#24ffffff"/>-->
+
+
+    <!--<Button-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_above="@id/jangkar2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/artikel"-->
+        <!--android:onClick="materi"-->
+        <!--android:text="Artikel"-->
+        <!--android:textColor="#282828 "-->
+        <!--android:background="@drawable/artikel"/>-->
+
+    <!--<Button-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_below="@id/jangkar2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/video"-->
+        <!--android:onClick="videoMateri"-->
+        <!--android:background="@drawable/video"/>-->
+</RelativeLayout>
